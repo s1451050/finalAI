@@ -10,9 +10,9 @@ app = Flask(__name__)
 # ==========================================
 # ⚙️ LINE 設定區 (請填入你的金鑰)
 # ==========================================
-LINE_CHANNEL_ACCESS_TOKEN = "YOUR_CHANNEL_ACCESS_TOKEN"
+LINE_CHANNEL_ACCESS_TOKEN = "aOFBFW9fEErWeF2rK55QwntCJZuFKLHaPYAvR8uCSqzGoAUDZcuNQrwka3VbLjxBPh/xvDJE459guzQqIw35mQWPYK/FwiIY0f7q2gj2aybNzmZHcVn1V9TvZhtXolO1G9dpMXT1qm2PMGua4MwaJwdB04t89/1O/w1cDnyilFU=YOUR_CHANNEL_ACCESS_TOKEN"
 LINE_USER_IDS = [
-    "YOUR_USER_ID_1",  # 填入你的 User ID
+    "Uf2a00cc3b73a9c4bd34d8dcd8115511a",  # 填入你的 User ID
 ]
 
 try:
