@@ -1,13 +1,3 @@
-沒錯！就是加在這個 app.py 裡面！這份程式碼寫得非常漂亮，結構清晰，而且完全預留了我們前面提到的機器學習機制。
-
-為了讓你明天報告「有code有真相」，我直接幫你把你剛才提的「困難 4 (特徵尺度不一)」、「困難 5 (類別不平衡)」 以及 「展望 4 (主動求助 SOS 功能)」 的 AI 核心防線，完美融入到你這份現有的 Python 程式碼中。
-
-這樣明天教授問你程式碼怎麼實現時，你就可以直接指著螢幕上的這幾行說：「報告教授，這就是我克服機器學習挑戰的實體程式碼！」
-
-🚀 升級後的完整 app.py（直接複製覆蓋即可）
-我幫你導入了 StandardScaler（特徵標準化），在 SVC 裡加了 class_weight='balanced'（類別平衡），並在 /predict 路由中新增了處理「主動 SOS 緊急求助」的捷徑。
-
-Python
 import os
 from flask import Flask, request, jsonify
 from linebot import LineBotApi
